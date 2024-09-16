@@ -11,7 +11,7 @@ test_case(vector_is_empty)
     test_assert(vector_is_empty(v) == 0);
 
     vector_free(v);
-    test_assert(vector_is_empty(v) == 0);
+    test_assert(vector_is_empty(v) == 1);
 
     test_success();
 }
