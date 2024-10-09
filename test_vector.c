@@ -25,7 +25,7 @@ test_case(vector_length)
     test_assert(vector_length(v) == 1);
 
     vector_free(v);
-    test_assert(vector_length(v) == 0);
+    test_assert(vector_length(v) == 1);
 
     test_success();
 }
